@@ -1,0 +1,28 @@
+modLoader="javafml"
+loaderVersion="[${forge_version},)"
+license="MIT"
+issueTrackerURL="https://github.com/yourrepo/issues"
+
+[[mods]]
+modId="${mod_id}"
+version="${mod_version}"
+displayName="${mod_name}"
+description='''Adds missing turtle armor pieces (chestplate, leggings, boots) with vanilla-style effects'''
+authors="YourName"
+displayURL="https://github.com/yourrepo"
+credits="Thanks to the Minecraft Forge team"
+logoFile="assets/turtle_armor/icon.png"
+
+[[dependencies.${mod_id}]]
+modId="forge"
+mandatory=true
+versionRange="[${forge_version},)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.${mod_id}]]
+modId="minecraft"
+mandatory=true
+versionRange="[${stonecutter.minecraft_version},)"
+ordering="NONE"
+side="BOTH"

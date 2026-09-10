@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S S",
+    "S S"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:scute"
+    }
+  },
+  "result": {
+    "item": "turtle_armor:turtle_boots",
+    "count": 1
+  }
+}

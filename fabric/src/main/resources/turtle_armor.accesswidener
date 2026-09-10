@@ -1,0 +1,7 @@
+# Access widener for Fabric
+# Allows access to private/protected members needed by the mod
+
+# Example: widen net.minecraft.world.item.Item for custom armor material registration
+# widen net.minecraft.world.item.Item
+
+# Add more as needed for your implementation
